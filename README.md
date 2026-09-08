@@ -51,6 +51,10 @@ This milestone directly addresses steward feedback: *"let either party advance s
 - On any fetch, status, integrity or verdict-parsing failure, task state is left unchanged so either party can retry.
 - **`withdraw()` requires the EVM/ghost-contract layer to deliver value to a plain wallet address.** This is available on live GenLayer networks (e.g. Bradbury) but not in the Studio sandbox, which has no EVM layer. All settlement *decisions* (escrow, crediting, entitlement) are fully testable and were tested end-to-end on Studio; only the final external token transfer requires a live network. The contract uses the documented pattern for this (`@gl.evm.contract_interface` wrapper around the recipient address) so `withdraw()` is ready to execute correctly once deployed to a network with the EVM layer.
 
+## Setup
+
+No build step required. This is a static HTML/JS application — open `index.html` directly in a browser or visit the live GitHub Pages link above.
+
 ## Contract
 
 Network: GenLayer Studionet
