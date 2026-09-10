@@ -64,7 +64,7 @@ Explorer: https://explorer-studio.genlayer.com/address/0xF64c4408dc72Fd7d4bc9bDf
 
 ## Testing Instructions
 
-1. Open the [live demo](https://a200326.github.io/freelance-task-validator-app/).
+1. Open the [live demo](https://a200326.github.io/GenLayer-Freelance-app-V2/).
 2. Connect MetaMask (Studionet).
 3. Create a task with your own address as the worker (so you can act as both roles for testing), attaching a GEN amount.
 4. Accept the task (as worker), then submit an evidence URL, for example, a raw GitHub Gist link to a code file.
