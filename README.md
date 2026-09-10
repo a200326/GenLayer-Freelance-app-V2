@@ -4,7 +4,7 @@ A full stack dApp for trustless freelance work verification with escrowed paymen
 
 ## Live Demo
 
-**Try it now:** https://a200326.github.io/freelance-task-validator-app/
+**Try it now:** https://a200326.github.io/GenLayer-Freelance-app-V2/
 
 Requires MetaMask connected to GenLayer Studionet.
 
